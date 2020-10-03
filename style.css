@@ -1,0 +1,78 @@
+
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(./Images/rightone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.line {
+    height: 3px;
+    border-color:gray;
+    width: 109px; 
+} 
+
+.section1 {
+    background-color: black;
+}
+
+.headline {
+    width: 37%;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+
+/* .page-secondhalf {
+    background-image: url(./Images/photo-1506368083636-6defb67639a7.jpg);
+    height: 103vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.headline2 {
+    width: 14%;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+.section2 {
+    background-color: #191919;
+}
+
+.heading1 {
+    font-size: 5.5rem;
+    line-height: 1.2;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .heading1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .heading1 {
+        font-size: 3.5rem;
+    }
+
+    .p1 {
+        font-size: 1.0rem;
+    }
+    .p2 {
+        font-size: 1.4rem;
+    }
+
+    .headline2 {
+        width: 49%;
+    }
+}
